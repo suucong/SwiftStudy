@@ -29,6 +29,8 @@
 		FC61265E2BA83BBF00C49D53 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61265D2BA83BBF00C49D53 /* BindingChild.swift */; };
 		FC6126602BA840FA00C49D53 /* ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61265F2BA840FA00C49D53 /* ConditionalBasic.swift */; };
 		FC6126622BA8440100C49D53 /* TernaryBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6126612BA8440100C49D53 /* TernaryBasic.swift */; };
+		FC6126642BA84A9200C49D53 /* AnimationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6126632BA84A9200C49D53 /* AnimationBasic.swift */; };
+		FC6126672BA85AC700C49D53 /* TransitionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6126652BA853E000C49D53 /* TransitionBasic.swift */; };
 		FC8E37862B9C5734001D430E /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E37852B9C5734001D430E /* ColorBasic.swift */; };
 		FCCB85582B97351F00BF37DE /* SwiftUIBasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB85572B97351F00BF37DE /* SwiftUIBasicApp.swift */; };
 		FCCB855A2B97351F00BF37DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB85592B97351F00BF37DE /* ContentView.swift */; };
@@ -61,6 +63,8 @@
 		FC61265D2BA83BBF00C49D53 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
 		FC61265F2BA840FA00C49D53 /* ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBasic.swift; sourceTree = "<group>"; };
 		FC6126612BA8440100C49D53 /* TernaryBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBasic.swift; sourceTree = "<group>"; };
+		FC6126632BA84A9200C49D53 /* AnimationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic.swift; sourceTree = "<group>"; };
+		FC6126652BA853E000C49D53 /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
 		FC8E37852B9C5734001D430E /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 		FCCB85542B97351F00BF37DE /* SwiftUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCB85572B97351F00BF37DE /* SwiftUIBasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicApp.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 				FC61265B2BA83AEA00C49D53 /* BindingBasic.swift */,
 				FC61265F2BA840FA00C49D53 /* ConditionalBasic.swift */,
 				FC6126612BA8440100C49D53 /* TernaryBasic.swift */,
+				FC6126632BA84A9200C49D53 /* AnimationBasic.swift */,
+				FC6126652BA853E000C49D53 /* TransitionBasic.swift */,
 				FC6126522BA8361B00C49D53 /* StateBasic.swift */,
 				FC0759FD2B9C9874002E0128 /* PaddingBasic.swift */,
 				FC0759FF2B9CBD7E002E0128 /* SpacerBasic.swift */,
@@ -228,6 +234,7 @@
 				FC6126572BA8367200C49D53 /* ExtractSubViewBasic.swift in Sources */,
 				FC61265A2BA8369C00C49D53 /* ItemBasic.swift in Sources */,
 				FC0759F22B9C5BF2002E0128 /* GradientBasic.swift in Sources */,
+				FC6126672BA85AC700C49D53 /* TransitionBasic.swift in Sources */,
 				FC075A082B9CC85B002E0128 /* LazyGridBasic.swift in Sources */,
 				FC61265E2BA83BBF00C49D53 /* BindingChild.swift in Sources */,
 				FC0759F42B9C5F21002E0128 /* IconBasic.swift in Sources */,
@@ -239,6 +246,7 @@
 				FCCB85692B97406400BF37DE /* ShapeBasic.swift in Sources */,
 				FC6126622BA8440100C49D53 /* TernaryBasic.swift in Sources */,
 				FC075A0A2B9CD0E1002E0128 /* IgnoreSafeAreaBasic.swift in Sources */,
+				FC6126642BA84A9200C49D53 /* AnimationBasic.swift in Sources */,
 				FC8E37862B9C5734001D430E /* ColorBasic.swift in Sources */,
 				FCCB85582B97351F00BF37DE /* SwiftUIBasicApp.swift in Sources */,
 				FC6126552BA8363700C49D53 /* ExtractViewBasic.swift in Sources */,
@@ -384,6 +392,7 @@
 				DEVELOPMENT_TEAM = 938D79P4R6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;

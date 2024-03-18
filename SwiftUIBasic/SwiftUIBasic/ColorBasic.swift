@@ -31,7 +31,7 @@ struct ColorBasic: View {
             Text("UI Color")
                 .font(.title)
             RoundedRectangle(cornerRadius: 25)
-                .fill(Color(UIColor.secondarySystemBackground))
+                //.fill(Color(UIColor.secondarySystemBackground))
                 .frame(width: 300, height: 100)
             
             // Custom Color
