@@ -31,6 +31,14 @@
 		FC6126622BA8440100C49D53 /* TernaryBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6126612BA8440100C49D53 /* TernaryBasic.swift */; };
 		FC6126642BA84A9200C49D53 /* AnimationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6126632BA84A9200C49D53 /* AnimationBasic.swift */; };
 		FC6126672BA85AC700C49D53 /* TransitionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6126652BA853E000C49D53 /* TransitionBasic.swift */; };
+		FC6126692BAB1ABA00C49D53 /* SheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6126682BAB1ABA00C49D53 /* SheetBasic.swift */; };
+		FC61266B2BAB1AD500C49D53 /* SheetBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61266A2BAB1AD500C49D53 /* SheetBasic2.swift */; };
+		FC61266D2BAB23C900C49D53 /* NavigationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61266C2BAB23C900C49D53 /* NavigationBasic.swift */; };
+		FC61266F2BAB249500C49D53 /* SecondNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61266E2BAB249500C49D53 /* SecondNavigationView.swift */; };
+		FC6126712BABED0C00C49D53 /* ListBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6126702BABED0C00C49D53 /* ListBasic.swift */; };
+		FC6126732BAC60A400C49D53 /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6126722BAC60A400C49D53 /* AlertBasic.swift */; };
+		FC6126752BAC6AE800C49D53 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6126742BAC6AE800C49D53 /* ContextMenuBasic.swift */; };
+		FC6126772BAC6D6000C49D53 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6126762BAC6D6000C49D53 /* ActionSheetBasic.swift */; };
 		FC8E37862B9C5734001D430E /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E37852B9C5734001D430E /* ColorBasic.swift */; };
 		FCCB85582B97351F00BF37DE /* SwiftUIBasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB85572B97351F00BF37DE /* SwiftUIBasicApp.swift */; };
 		FCCB855A2B97351F00BF37DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB85592B97351F00BF37DE /* ContentView.swift */; };
@@ -65,6 +73,14 @@
 		FC6126612BA8440100C49D53 /* TernaryBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBasic.swift; sourceTree = "<group>"; };
 		FC6126632BA84A9200C49D53 /* AnimationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic.swift; sourceTree = "<group>"; };
 		FC6126652BA853E000C49D53 /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
+		FC6126682BAB1ABA00C49D53 /* SheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic.swift; sourceTree = "<group>"; };
+		FC61266A2BAB1AD500C49D53 /* SheetBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic2.swift; sourceTree = "<group>"; };
+		FC61266C2BAB23C900C49D53 /* NavigationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasic.swift; sourceTree = "<group>"; };
+		FC61266E2BAB249500C49D53 /* SecondNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNavigationView.swift; sourceTree = "<group>"; };
+		FC6126702BABED0C00C49D53 /* ListBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBasic.swift; sourceTree = "<group>"; };
+		FC6126722BAC60A400C49D53 /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
+		FC6126742BAC6AE800C49D53 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
+		FC6126762BAC6D6000C49D53 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
 		FC8E37852B9C5734001D430E /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 		FCCB85542B97351F00BF37DE /* SwiftUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCB85572B97351F00BF37DE /* SwiftUIBasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicApp.swift; sourceTree = "<group>"; };
@@ -123,8 +139,16 @@
 				FC6126612BA8440100C49D53 /* TernaryBasic.swift */,
 				FC6126632BA84A9200C49D53 /* AnimationBasic.swift */,
 				FC6126652BA853E000C49D53 /* TransitionBasic.swift */,
+				FC6126682BAB1ABA00C49D53 /* SheetBasic.swift */,
+				FC61266C2BAB23C900C49D53 /* NavigationBasic.swift */,
+				FC61266E2BAB249500C49D53 /* SecondNavigationView.swift */,
+				FC6126702BABED0C00C49D53 /* ListBasic.swift */,
+				FC61266A2BAB1AD500C49D53 /* SheetBasic2.swift */,
 				FC6126522BA8361B00C49D53 /* StateBasic.swift */,
 				FC0759FD2B9C9874002E0128 /* PaddingBasic.swift */,
+				FC6126722BAC60A400C49D53 /* AlertBasic.swift */,
+				FC6126742BAC6AE800C49D53 /* ContextMenuBasic.swift */,
+				FC6126762BAC6D6000C49D53 /* ActionSheetBasic.swift */,
 				FC0759FF2B9CBD7E002E0128 /* SpacerBasic.swift */,
 				FC075A012B9CBFC1002E0128 /* ScrollViewBasic.swift */,
 				FC075A032B9CC4E0002E0128 /* InitEnumBasic.swift */,
@@ -230,19 +254,27 @@
 			files = (
 				FC075A042B9CC4E0002E0128 /* InitEnumBasic.swift in Sources */,
 				FC0759F62B9C6099002E0128 /* ImageBasic.swift in Sources */,
+				FC61266D2BAB23C900C49D53 /* NavigationBasic.swift in Sources */,
 				FC61265C2BA83AEA00C49D53 /* BindingBasic.swift in Sources */,
 				FC6126572BA8367200C49D53 /* ExtractSubViewBasic.swift in Sources */,
 				FC61265A2BA8369C00C49D53 /* ItemBasic.swift in Sources */,
 				FC0759F22B9C5BF2002E0128 /* GradientBasic.swift in Sources */,
+				FC6126692BAB1ABA00C49D53 /* SheetBasic.swift in Sources */,
 				FC6126672BA85AC700C49D53 /* TransitionBasic.swift in Sources */,
 				FC075A082B9CC85B002E0128 /* LazyGridBasic.swift in Sources */,
 				FC61265E2BA83BBF00C49D53 /* BindingChild.swift in Sources */,
 				FC0759F42B9C5F21002E0128 /* IconBasic.swift in Sources */,
+				FC6126772BAC6D6000C49D53 /* ActionSheetBasic.swift in Sources */,
+				FC6126712BABED0C00C49D53 /* ListBasic.swift in Sources */,
+				FC61266F2BAB249500C49D53 /* SecondNavigationView.swift in Sources */,
 				FC0759FA2B9C65FF002E0128 /* BackgroundOverlayBasic.swift in Sources */,
 				FC075A0C2B9CD2A1002E0128 /* ButtonBasic.swift in Sources */,
 				FC075A062B9CC6EA002E0128 /* ForEachLoopBasic.swift in Sources */,
+				FC6126732BAC60A400C49D53 /* AlertBasic.swift in Sources */,
 				FCCB85672B9735FE00BF37DE /* TextBasic.swift in Sources */,
 				FCCB855A2B97351F00BF37DE /* ContentView.swift in Sources */,
+				FC61266B2BAB1AD500C49D53 /* SheetBasic2.swift in Sources */,
+				FC6126752BAC6AE800C49D53 /* ContextMenuBasic.swift in Sources */,
 				FCCB85692B97406400BF37DE /* ShapeBasic.swift in Sources */,
 				FC6126622BA8440100C49D53 /* TernaryBasic.swift in Sources */,
 				FC075A0A2B9CD0E1002E0128 /* IgnoreSafeAreaBasic.swift in Sources */,
