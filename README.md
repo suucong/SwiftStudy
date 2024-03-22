@@ -10,3 +10,4 @@
 |------|---|
 |1주차|SwiftUI - Core1(Button, Spacer, Image, SafeArea, Frame,<br>Background, Init_Enum, ForEach, ScollView, ...)|
 |2주차|SwiftUI - Data(@State, ExtractView, @Binding, Conditional, TenaryOperator), <br>SwiftUI - Animation(Animation, Transition)|
+|3주차|SwiftUI - Core2(Sheet, NavigationView, List, Alert, ContextMenu,<br> ActionSheet, TextField, Toggle, Picker, ColorPicker, DatePicker, <br>Stepper, Slider, TabView, Darkmode, OnAppear, OnTabGesture)|
